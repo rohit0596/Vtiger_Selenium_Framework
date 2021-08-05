@@ -49,7 +49,11 @@ public class HomePage extends WebDriverUtility{
 	}
 	/**
 	 * click on organization link
+	 * @return 
 	 */
+	public void clickOnOrganisationImg() {
+		organizationLink.click();
+	}
 
 	/**
 	 * click on contact link

@@ -31,6 +31,7 @@ public class BaseClass {
 	public FileUtility fUtil=new FileUtility();
 	public WebDriverUtility wUtil=new WebDriverUtility();
 	public DataBaseUtilities dblib = new DataBaseUtilities();
+	
 	public HomePage homePAge;
 
 	@BeforeSuite()
