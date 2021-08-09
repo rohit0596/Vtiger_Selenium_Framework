@@ -29,4 +29,7 @@ public class CreateOrganizationInfoPage {
 	public String getOrganisation() {
 		return organizationNameInfo.getText();
 	}
+//	public String getOrganisationFromTitle() {
+//		return pageTitleInfo.
+//	}
 }
