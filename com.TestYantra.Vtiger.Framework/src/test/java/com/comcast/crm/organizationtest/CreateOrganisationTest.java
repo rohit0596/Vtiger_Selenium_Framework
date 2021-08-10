@@ -31,7 +31,7 @@ public class CreateOrganisationTest extends BaseClass {
 		
 		//Get organization Name
 		CreateOrganizationInfoPage createOrganisationInfo = new CreateOrganizationInfoPage(driver);
-		String actualOrganisationName = createOrganisationInfo.getOrganisation();
+		String actualOrganisationName = createOrganisationInfo.getOrganisationName();
 		
 		//Validation
 		Assert.assertEquals(actualOrganisationName, expectedOrgName);

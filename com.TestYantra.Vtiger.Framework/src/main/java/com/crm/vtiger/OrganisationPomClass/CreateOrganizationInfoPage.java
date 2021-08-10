@@ -14,6 +14,9 @@ public class CreateOrganizationInfoPage {
 	@FindBy(xpath = "//span[@id='dtlview_Organization Name']")
 	private WebElement organizationNameInfo;
 	
+	@FindBy(xpath = "//span[@id='dtlview_Industry']")
+	private WebElement industryNameInfo;
+	
 	@FindBy(xpath = "//span[@class='dvHeaderText']")
 	private WebElement pageTitleInfo;
 
@@ -26,8 +29,12 @@ public class CreateOrganizationInfoPage {
 	}
 	
 	//Business Logics Starts here
-	public String getOrganisation() {
+	public String getOrganisationName() {
 		return organizationNameInfo.getText();
+	}
+	
+	public String getIndustryName() {
+		return industryNameInfo.getText();
 	}
 //	public String getOrganisationFromTitle() {
 //		return pageTitleInfo.
