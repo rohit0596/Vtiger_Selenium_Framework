@@ -36,7 +36,7 @@ public class CreateNewContactPage {
 	}
 	
 	//Business Logics.
-	public void createOrganisation(WebDriver driver,String lastName) {
+	public void createContactWithOrganisation(WebDriver driver,String lastName) {
 		WebDriverUtility webDriverUtility = new WebDriverUtility();
 		lastNameTextField.sendKeys(lastName);
 		organizationNameImg.click();

@@ -26,7 +26,7 @@ public class CreateContactsTest extends BaseClass{
 
 		//Create Contact
 		CreateNewContactPage createNewContactPage = new CreateNewContactPage(driver);
-		createNewContactPage.createOrganisation(driver, expectData);
+		createNewContactPage.createContactWithOrganisation(driver, expectData);
 
 		//Get ContactData including Organization Name
 		CreateContactsPageInfo createContactPageInfo = new CreateContactsPageInfo(driver);
